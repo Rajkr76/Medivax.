@@ -1,0 +1,389 @@
+body {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.logo {
+    position: relative;
+    left: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-img{
+    position: relative;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav {
+    background-color: #1bf4abee;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+nav a  {
+   
+    position: relative;
+    right: 5vw; 
+
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: green;
+    border-radius: 25px;   
+}
+.ai-img img{
+    position: relative;
+    top: 1vh;
+    left: 0vw;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border-radius: 50%;
+}
+.main-text {
+    position: relative;
+    font-size: 30px;
+    color: black;
+    right: 10vw;
+    top: 0vh;
+    height: 40rem;
+    text-align: right;
+   
+}
+
+.main-text h1 {
+  margin: 0px;
+  position: relative;
+  top:14vh;
+}
+.para{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    left: 67vw;
+    top:34vh;
+    width: 500px;
+    height:22vh;
+    text-align: justify;
+    line-height: 1.6; 
+    font-family: "Winky Sans", sans-serif;
+}
+
+.main-img img{
+    position: absolute;
+    top:0vh;
+    left: 16vw;
+    width:700px;
+    height: 600px; 
+}
+.heading-1{
+    position: absolute;
+    right: 19vw;
+    
+}
+.btn-find-medicines{
+    position: absolute;
+    right: 21vw;
+    top: 21vh;
+    background-color: #1bf48bee;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 19px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn-find-medicines:hover{
+    background-color: green;
+    color: white;
+}
+.problems {
+    position: relative;
+    right: 0;
+    top: 5vh;
+    background-color: #dcdddd;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.problems h1{
+   font-size:40px;
+    margin: 0;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.problem {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.problem-1 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.problem-img img {
+    width: 480px;
+    height: 320px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background: none;
+    position: relative;
+    left:2vw;
+}
+.problem-img-1 img {
+    width: 480px;
+    height: 320px;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+    left: 43.5vw;
+    background: none;
+
+}
+
+.problem-text {
+    text-align: left;
+    position: absolute;
+    top:22px;
+    left: 36vw;
+    overflow:hidden;
+    height: 40vh;
+    font-family: "Winky Sans", sans-serif;
+}
+.problem-text-1 {
+    text-align: left;
+    position: absolute;
+    top:22px;
+    right: 42vw;
+    overflow:hidden;
+    height: 40vh;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.problem-text h2 {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    font-family: "Winky Sans", sans-serif;
+}
+.problem-text-1 h2 {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    
+    font-family: "Winky Sans", sans-serif;
+}
+
+.problem-text p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    height: 35vh;
+    width: 540px;
+    font-family: "Winky Sans", sans-serif;
+   
+}
+.problem-text-1 p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    height: 35vh;
+    width: 540px;
+    font-family: "Winky Sans", sans-serif;
+}
+.solutions{
+    
+    height: 63vh;
+    width:100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+
+}
+
+.learn-more {
+    position: absolute;
+    top: 40vh;
+    left: 44vw;
+    background: linear-gradient(90deg, rgb(164, 31, 194), rgb(76, 225, 210));
+    color: black;
+    border: 1.5px solid black;
+    
+    border-radius: 35px;
+    padding: 13px 19px;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.learn-more:hover {
+    background: linear-gradient(90deg, rgb(255, 123, 0), rgb(255, 94, 94));
+    color: white;
+}
+
+
+
+.solution h1{
+    position: absolute;
+    top:16px;
+    left:44vw;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.solution-1{
+    position: absolute;
+    top: 17vh;
+    left: 10vw;
+    background: rgb(248, 248, 250);
+   
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    width: 80%;
+    height: 59vh;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+}
+.solution-1 img{
+    height: 25vw;
+    width: 80vh;
+    border-radius: 30px;
+    position: absolute;
+    top:35px;
+    left: 3vw;
+}
+.solution-1 h2{
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    top: 6vh;
+    right: 17vw;
+    font-family: "Winky Sans", sans-serif;
+    z-index: 1;
+}
+.solution-1 p{
+    font-size: 20px;
+    line-height: 1.6;
+    z-index: 1;
+    position: absolute;
+    top: 11vh;
+    right: 6vw;
+    width: 500px;
+    height: 30vh;
+    text-align: justify;
+    font-family: "Winky Sans", sans-serif;
+}
+.footer{
+    position: relative;
+    top:18vh;
+    background-color: #424242ee;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 45vh;
+}
+.footer-logo p{
+    
+    height:27vh;
+    width:20vw;
+    color: black;
+    font-size: 17px;
+    text-align: 1.1;
+    position: absolute;
+    top: 11vh;
+    left: 4vw;
+    text-align: justify;
+}
+.footer-logo img{
+    position: absolute;
+    top: 40px;
+    left: 4vw;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.footer-logo h1{
+    position: absolute;
+    top: 22px;
+    left: 8vw;
+    font-size: 30px;
+    
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    position: absolute;
+    top: 2vh;
+    left: 25vw;
+    color: black;
+    font-family: "Winky Sans", sans-serif;
+    
+}
+.footer-links h3{
+    position: relative;
+    left:-0vw;
+}
+.footer-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+    line-height: 2;
+    text-align: justify;
+    position: relative;
+    left:30px;
+    font-family: "Winky Sans", sans-serif;
+}
+.footer-links div{
+  display: block;
+}
+.footer-links div h2{
+    font-size: 20px;
+    margin: 0;
+    color: black;
+}
