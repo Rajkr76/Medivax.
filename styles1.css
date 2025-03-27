@@ -47,11 +47,12 @@ nav a:hover {
 }
 .ai-img img{
     position: relative;
-    top: 1vh;
-    left: 0vw;
-    width: 35px;
-    height: 35px;
+    top: 88vh;
+    left: 93vw;
+    width: 47px;
+    height: 47px;
     background: none;
+    box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.745);
     border-radius: 50%;
 }
 .main-text {
@@ -158,7 +159,7 @@ nav a:hover {
     left:2vw;
 }
 .problem-img-1 img {
-    width: 480px;
+    width: 520px;
     height: 320px;
     border-radius: 10px;
     margin-right: 20px;
@@ -173,35 +174,35 @@ nav a:hover {
     position: absolute;
     top:22px;
     left: 36vw;
-    overflow:hidden;
+   
     height: 40vh;
     font-family: "Winky Sans", sans-serif;
 }
 .problem-text-1 {
     text-align: left;
     position: absolute;
-    top:22px;
+    top:3px;
     right: 42vw;
-    overflow:hidden;
+    
     height: 40vh;
     font-family: "Winky Sans", sans-serif;
 }
 
 .problem-text h2 {
     margin: 0 0 10px 0;
-    font-size: 25px;
+    font-size: 23px;
     font-family: "Winky Sans", sans-serif;
 }
 .problem-text-1 h2 {
     margin: 0 0 10px 0;
-    font-size: 25px;
+    font-size: 23px;
     
     font-family: "Winky Sans", sans-serif;
 }
 
 .problem-text p {
     margin: 0;
-    font-size: 18px;
+    font-size: 14.7px;
     line-height: 1.6;
     text-align: justify;
     height: 35vh;
@@ -211,7 +212,7 @@ nav a:hover {
 }
 .problem-text-1 p {
     margin: 0;
-    font-size: 18px;
+    font-size: 14.7px;
     line-height: 1.6;
     text-align: justify;
     height: 35vh;
@@ -242,7 +243,7 @@ nav a:hover {
     padding: 13px 19px;
     font-size: 20px;
     text-align: center;
-    overflow: hidden;
+    
     display: flex;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
@@ -279,7 +280,7 @@ nav a:hover {
     width: 80%;
     height: 59vh;
     text-align: center;
-    overflow: hidden;
+  
     display: flex;
 }
 .solution-1 img{
@@ -291,16 +292,16 @@ nav a:hover {
     left: 3vw;
 }
 .solution-1 h2{
-    font-size: 30px;
+    font-size: 26px;
     margin: 0;
     position: absolute;
     top: 6vh;
-    right: 17vw;
+    right: 19.3vw;
     font-family: "Winky Sans", sans-serif;
     z-index: 1;
 }
 .solution-1 p{
-    font-size: 20px;
+    font-size: 14.7px;
     line-height: 1.6;
     z-index: 1;
     position: absolute;
@@ -310,6 +311,29 @@ nav a:hover {
     height: 30vh;
     text-align: justify;
     font-family: "Winky Sans", sans-serif;
+}
+.child-care{
+    position: absolute;
+    top: 53vh;
+    left:44vw;
+    background: #1bf4abee;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 18px;
+    width: 10vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    cursor: pointer;
+}
+.child-care:hover{
+    background: green;
+    color: white;
 }
 .footer{
     position: relative;
@@ -350,13 +374,13 @@ nav a:hover {
     position: absolute;
     top: 22px;
     left: 8vw;
-    font-size: 30px;
-    
+    font-size: 25px;
+    color: black;
 }
 .footer-links{
     display: flex;
     justify-content: center;
-    gap: 130px;
+    gap: 110px;
     position: absolute;
     top: 2vh;
     left: 25vw;
