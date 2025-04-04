@@ -12,18 +12,6 @@ body {
     justify-content: space-between;
     padding: 50px;
 }
-.navbar  div{
-    display: flex;
-    width:105.4vw ;
-    justify-content: center;
-    align-items: center;
-    height: 8vh;
-    background: #1bf4ac95;
-    color: black;
-    font-size: 30px;
-    
-}
-
 .text-section {
     max-width: 50%;
     margin-left: 665px;
@@ -45,11 +33,24 @@ body {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 15px;
-    cursor: pointer;
-    font-weight: bold;
 }
 
 
+.navbar  div{
+    display: flex;
+    width:105.4vw ;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background: #1bf4ac95;
+    color: black;
+    font-size: 30px;
+    
+}
+.btn{
+font-weight:bold;
+cursor: pointer;
+}
 
 .title {
     font-size: 2.5em;
@@ -100,6 +101,15 @@ body {
     max-width: 50%;
     align-content: center;
 }
+.textsection3 p{
+    height: 20vh;
+    width: 40vw;
+    margin-right: 20px;
+    line-height:1.5;
+    text-align: justify;
+   
+   
+}
 .image3 {
     max-width: 77vh;
 }
@@ -114,4 +124,81 @@ body {
 .container4 {
     padding: 50px;
     text-align: center;
+}
+.container6 {
+    max-width: 1420px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    margin: 36px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #e9ecef;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    table {
+        font-size: 12px;
+    }
+    th, td {
+        padding: 6px;
+    }
+}
+.ess{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+td {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
+.container5 {
+    padding: 50px;
+    text-align: center;
+    border: #ddd;
 }

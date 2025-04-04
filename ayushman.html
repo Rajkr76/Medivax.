@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayushman Kendra Finder</title>
+    <link href="https://cdn.maptiler.com/maplibre-gl-js/v2.4.0/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="ayushman.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Ayushman Kendra Finder
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <div class="search-form">
+                <input type="text" id="search-input" class="search-input" placeholder="Enter location or address">
+                <button id="search-button" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    Search
+                </button>
+                <button id="location-button" class="btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    My Location
+                </button>
+            </div>
+        </div>
+
+        <div class="content-container">
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="map-loading" id="map-loading">
+                    <div class="spinner"></div>
+                    <p>Loading map...</p>
+                </div>
+            </div>
+
+            <div class="centers-container">
+                <div class="centers-header">
+                    <h2 class="centers-title">Nearby Ayushman Kendra Centers</h2>
+                    <p class="centers-subtitle" id="centers-count">5 centers found</p>
+                </div>
+                <div class="centers-list" id="centers-list">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Ayushman Kendra Finder | Find your nearest Ayushman Bharat center</p>
+        <p>This is a demonstration application with mock data</p>
+    </footer>
+
+    <script src="https://cdn.maptiler.com/maplibre-gl-js/v2.4.0/maplibre-gl.js"></script>
+    <script src="https://api.maptiler.com/maps/streets-v2/?key=WNNAE4ZZDuO0qs0KHl0R#1.0/0.00000/0.00000"></script>
+    <script src="https://api.maptiler.com/tiles/countries/?key=WNNAE4ZZDuO0qs0KHl0R#4.2/29.51420/75.99636"></script>
+    <script src="https://api.maptiler.com/maps/satellite/?key=WNNAE4ZZDuO0qs0KHl0R#1.0/0.00000/0.00000"></script>
+    <script src="ayushman.js"></script>
+</body>
+</html>
