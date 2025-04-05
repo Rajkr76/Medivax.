@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+/* Patient grid styles */
+.patient-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.patient-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    
+}
+
+.patient-card:hover {
+    transform: translateY(-5px);
+}
+
+.patient-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.card-header {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.label {
+    font-weight: bold;
+    color: #7f8c8d;
+}
+
+.progress-container {
+    height: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    margin: 15px 0 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+.progress-text {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.card-footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-top: 1px solid #eaeaea;
+}
+
+.btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.donate-btn {
+    width: 100%;
+}
+
+/* Modal styles */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-header {
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #f8f9fa;
+}
+
+.modal-title {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.modal-description {
+    margin-top: 5px;
+    color: #7f8c8d;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.form-section {
+    margin-bottom: 25px;
+}
+
+.form-section-title {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-input:disabled {
+    background-color: #f8f9fa;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.modal-footer {
+    padding: 15px 20px;
+    text-align: right;
+    border-top: 1px solid #eaeaea;
+    background-color: #f8f9fa;
+}
+
+/* Thank you modal */
+.thank-you-modal {
+    padding: 30px;
+    text-align: center;
+}
+
+.thank-you-title {
+    color: #27ae60;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.thank-you-message {
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* Error message styles */
+.error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    display: none;
+}
+
+.error-field {
+    border-color: #e74c3c !important;
+}
